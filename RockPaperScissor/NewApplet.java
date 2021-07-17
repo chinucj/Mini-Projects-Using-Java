@@ -224,7 +224,6 @@ public class NewApplet extends java.applet.Applet {
     }// </editor-fold>                        
 
     private void button3ActionPerformed(java.awt.event.ActionEvent evt) {                                        
-        // TODO add your handling code here:
          if(evt.getSource()==button3)
         {
             player = "scissor";
@@ -234,8 +233,7 @@ public class NewApplet extends java.applet.Applet {
         }
     }                                       
 
-    private void button1ActionPerformed(java.awt.event.ActionEvent evt) {                                        
-        // TODO add your handling code here:
+    private void button1ActionPerformed(java.awt.event.ActionEvent evt) {                                       
         if(evt.getSource()==button1)
         {
             player = "rock";
@@ -246,7 +244,7 @@ public class NewApplet extends java.applet.Applet {
     }                                       
 
     private void button2ActionPerformed(java.awt.event.ActionEvent evt) {                                        
-        // TODO add your handling code here:
+       
         if(evt.getSource()==button2)
         {
             player = "paper";
